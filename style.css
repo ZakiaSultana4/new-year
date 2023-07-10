@@ -1,0 +1,90 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Chela+One&family=Open+Sans:wght@400;700;800&family=Poppins:ital,wght@0,500;0,600;0,800;1,400;1,700&display=swap');
+ /*font-family: 'Anton', sans-serif;
+font-family: 'Chela One', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-area{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    width: 100%;
+    background-color: aquamarine;
+    align-items: center;
+
+}
+nav ul {
+    display: flex;
+    gap: 90px;
+}
+nav ul li {
+    list-style: none;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    text-decoration: none;
+    color: black;
+}
+.primary-btn{
+    background-color: tomato;
+    color: azure;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px;
+    height: 30px;
+
+}
+.hero-area{
+    background-image: url(img/banner1.png);
+    height: 100vh;
+    margin-top: 0;
+}
+.person-area{
+    width: 1600px;
+    height: 3229px;
+    display: flex;
+    justify-content: space-between;
+    color:#151414;
+
+
+      
+
+}
+.person{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.text{
+    margin-top: 400px;
+   
+
+font-weight: 700;
+}
+.person-heading{
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+
+    font-weight: 700;
+    
+}
+.person-info{
+       
+color: #444343;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+div ul li {
+    list-style: none;
+}
