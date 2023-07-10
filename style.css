@@ -44,29 +44,36 @@ nav ul li a{
 }
 .hero-area{
     background-image: url(img/banner1.png);
-    height: 100vh;
-    margin-top: 0;
+   height: 100vh;
 }
 .person-area{
     width: 1600px;
-    height: 3229px;
-    display: flex;
+    background-color: #d8dbde;
+    height: 1400px;
     justify-content: space-between;
     color:#151414;
-
+}
+    
 
       
 
+
+.text-person{
+    display: flex;
 }
 .person{
     margin-top: 100px;
-    margin-left: 100px;
+    
+
+    
 }
 .text{
     margin-top: 400px;
-   
+    font-weight: 700;
+    margin-left: 50px;
 
-font-weight: 700;
+
+
 }
 .person-heading{
     color: #151414;
@@ -84,7 +91,71 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px;
+margin-top: 10px;
 }
 div ul li {
     list-style: none;
+}
+.list{
+    margin-top: 10px;
+    color: #444343;
+}
+.skil-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+  
+}
+.plan{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.web{
+    border: 2px solid white;
+    box-shadow: gray;
+}
+.clock{
+   margin: 0 auto;
+   
+   background-repeat: no-repeat;
+}
+.footer{
+    width: 1600px;
+height: 577px;
+background-color: #151414;
+color: aliceblue;
+display:flex ;
+justify-content: space-around;
+font-family: 'Open Sans', sans-serif;;
+
+}
+   
+.social{
+    margin-top: 50px;
+
+}
+.footer-text{
+    margin-top: 20px;
+}
+.left, .right {
+    margin-top: 100px;
+}
+.right{
+    display:inline-block;
+}
+.email{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.Subscribe{
+    margin-top: 20px;
+}
+.img{
+    margin-left: 20px;
 }
